@@ -317,7 +317,7 @@ button {
 .banner_main {
      background: url(../images/banner.jpg);
      background-repeat: no-repeat;
-     min-height: 1500px;
+     min-height: 900px;
      display: flex;
      justify-content: center;
      align-content: center;
