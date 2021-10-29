@@ -8,77 +8,48 @@
 @media (min-width: 1200px) and (max-width: 1500px) {}
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .text-img {
-        height: 803px;
-        border-radius: inherit;
-        padding: 229px 20px 0px 50px;
+    .text-bg h1 {
+        font-size: 51px;
     }
-    .two_box h2 {
-        font-size: 39px;
+    .titlepage h2 {
+        font-size: 42px;
     }
-    .offer {
-        font-size: 65px;
+    .cont h3 {
+        font-size: 40px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 0px 7px;
-    }
-    .text-img {
-        height: 803px;
-        border-radius: inherit;
-        padding: 229px 20px 0px 50px;
-    }
-    .text-bg {
-        padding-top: 166px;
+        padding: 0px 10px;
     }
     .text-bg h1 {
         padding-top: 0px;
-        font-size: 51px;
-        line-height: 70px;
-    }
-    .text-bg span {
         font-size: 33px;
-        line-height: 45px;
-    }
-    .best_box h4 {
-        font-size: 21px;
-        line-height: 30px;
-    }
-    .best_box p {
-        font-size: 16px;
-        padding-top: 12px;
-    }
-    .two_box {
-        padding: 0 10px;
-    }
-    .two_box h2 {
-        font-size: 27px;
-        line-height: 40px;
-        padding-bottom: 10px;
-    }
-    .offer {
-        font-size: 42px;
-    }
-    .testimonial_Carousel .test_box p {
-        font-size: 17px;
-        line-height: 28px;
-    }
-    .cont span {
-        font-size: 22px;
         line-height: 22px;
     }
-    .multi {
+    .text-bg span {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    .text-bg p {
+        padding-bottom: 20px;
+    }
+    .banner_main {
+        min-height: 600px;
+    }
+    .titlepage h2 {
         font-size: 36px;
     }
-    .cont h3 {
-        font-size: 28px;
-        line-height: 43px;
+    .discount .titlepage h2 {
+        padding: 0;
     }
-    .cont_call h3 {
-        font-size: 33px;
-        line-height: 47px;
+    .bottom_form .enter {
+        width: 66%;
+    }
+    .cont h3 {
+        font-size: 30px;
+        line-height: 44px;
     }
 }
 
@@ -89,38 +60,32 @@
     .mean-container .mean-bar {
         margin-top: 0px;
     }
-    .text-bg {
-        max-width: inherit;
-        float: inherit;
-        padding-top: 88px;
-    }
     .text-bg h1 {
-        font-size: 64px;
-    }
-    .text-bg span {
-        font-size: 37px;
-        line-height: 46px;
-    }
-     .text-img h3 {
-        display: none;
-    }
-    .main_form {
-        padding: 50px 20px 0px 20px;
-    }
-    .two_box h2 {
         font-size: 39px;
-        padding-top: 30px;
+        line-height: 40px;
+        padding-bottom: 25px;
     }
-    .two_box p {
-        padding-bottom: 30px
-    }
-    .cont h3 {
-        font-size: 35px;
+    .banner_main {
+        padding-top: 100px;
     }
     .text-img {
-        height: auto;
-        border-radius: inherit;
-        padding: 40px 20px 40px 50px;
+        padding-top: 30px;
+    }
+    .text-bg span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .titlepage h2 {
+        font-size: 34px;
+    }
+    .cont h3 {
+        font-size: 34px;
+    }
+    .bottom_form .enter {
+        width: 70%;
+    }
+    .discount .titlepage h2 {
+        padding: 0;
     }
     .navigation.navbar {
         float: right;
@@ -129,9 +94,9 @@
         width: 100%;
     }
     .navigation .navbar-collapse {
-        background: #2bcc91;
+        background: #000;
         padding: 20px;
-        margin-top: 46px;
+        margin-top: 52px;
         position: absolute;
         width: 100%;
         margin-right: 20px;
@@ -139,7 +104,7 @@
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
-        color: #000;
+        color: #fff;
     }
     .navigation.navbar-dark .navbar-toggler {
         border: inherit;
@@ -158,7 +123,7 @@
 
 @media (max-width: 575px) {
     .header {
-        padding: 30px 0px 0px 0px;
+        padding: 30px 0px 15px 0px;
     }
     .logo {
         text-align: center !important;
@@ -166,52 +131,39 @@
         float: left;
     }
     .text-bg h1 {
-        font-size: 38px;
-        line-height: 55px;
+        font-size: 31px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+    .bottom_form .enter {
+        width: 100%;
+    }
+    .sub_btn {
+        margin-left: 0px;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-top: 30px;
     }
     .text-bg span {
-        font-size: 35px;
-        line-height: 44px;
-    }
-
-    .text-img h3 {
-        display: none;
-    }
-    .text-img {
-        height: auto;
-        border-radius: inherit;
-        padding: 40px 20px 40px 50px;
+        font-size: 26px;
+        line-height: 36px;
     }
     .titlepage h2 {
-        font-size: 40px;
-        line-height: 59px;
+        font-size: 29px;
+        line-height: 40px;
     }
-    .text-bg {
-        padding-top: 130px;
+    .banner_main {
+        padding-top: 100px;
+    }
+    .text-img {
+        padding-top: 30px;
+    }
+    .discount .titlepage h2 {
+        padding: 0;
     }
     .cont h3 {
-        font-size: 30px;
-        line-height: 45px;
-    }
-    .multi {
-        font-size: 37px;
-    }
-    .two_box {
-        padding: 0 10px;
-    }
-    .offer {
-        font-size: 50px;
-    }
-    .main_form {
-        padding: 50px 20px 0px 20px;
-    }
-    .two_box h2 {
-        font-size: 24px;
-        padding-top: 27px;
-        line-height: 31px;
-    }
-    .two_box p {
-        padding-bottom: 30px
+        font-size: 19px;
+        line-height: 40px;
     }
     .navigation.navbar {
         float: right;
@@ -221,9 +173,9 @@
         margin-top: -45px;
     }
     .navigation .navbar-collapse {
-        background: #2bcc91;
+        background: #000;
         padding: 20px;
-        margin-top: 46px;
+        margin-top: 62px;
         position: absolute;
         width: 100%;
         margin-right: 20px;
@@ -231,7 +183,7 @@
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
         padding: 10px 0;
-        color: #000;
+        color: #fff;
     }
     .navigation.navbar-dark .navbar-toggler {
         float: right;
@@ -250,9 +202,8 @@
         display: none;
     }
     .cont_call h3 {
-        font-size: 35px;
+        font-size: 33px;
         line-height: 49px;
     }
 }
 
-    
